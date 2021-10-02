@@ -6,8 +6,9 @@ HEIGHT = 650
 FPS = 1
 
 main_window = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_window("My first program on pygame")
+pygame.display.set_caption("My first program on pygame")
 clock = pygame.time.Clock()
+
 
 flRunning = True
 while flRunning:
